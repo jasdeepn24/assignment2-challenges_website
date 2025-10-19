@@ -1,0 +1,53 @@
+body {
+    background-color: lightgrey;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.challenge {
+    display: inline-block;
+    background-color: white;
+    padding: 30px;
+    width: 30%;
+    vertical-align: top;
+    margin-right: 2%;
+    min-height: 500px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.challenge:last-child {
+    margin-right: 0;
+}
+
+input {
+    padding: 7px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 7px 15px;
+}
+
+button:hover {
+    background-color: lightskyblue;
+}
+
+#reversalResult, #palindromeResult, #totalResult {
+    margin-top: 15px;
+    font-weight: bold;
+}
